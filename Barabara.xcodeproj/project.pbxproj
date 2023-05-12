@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		892638962A0DFFD000D3AE31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892638952A0DFFD000D3AE31 /* AppDelegate.swift */; };
+		8926389A2A0DFFD000D3AE31 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 892638982A0DFFD000D3AE31 /* Main.html */; };
+		8926389C2A0DFFD000D3AE31 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8926389B2A0DFFD000D3AE31 /* Icon.png */; };
+		8926389E2A0DFFD000D3AE31 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 8926389D2A0DFFD000D3AE31 /* Style.css */; };
+		892638A02A0DFFD000D3AE31 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8926389F2A0DFFD000D3AE31 /* SceneDelegate.swift */; };
+		892638A22A0DFFD000D3AE31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892638A12A0DFFD000D3AE31 /* ViewController.swift */; };
+		892638A52A0DFFD000D3AE31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 892638A32A0DFFD000D3AE31 /* LaunchScreen.storyboard */; };
+		892638A82A0DFFD000D3AE31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 892638A62A0DFFD000D3AE31 /* Main.storyboard */; };
+		892638B02A0DFFD100D3AE31 /* Barabara Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 892638AF2A0DFFD100D3AE31 /* Barabara Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		892638B52A0DFFD100D3AE31 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892638B42A0DFFD100D3AE31 /* SafariWebExtensionHandler.swift */; };
+		892638B82A0DFFD100D3AE31 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 892638B72A0DFFD100D3AE31 /* _locales */; };
+		892638BA2A0DFFD100D3AE31 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 892638B92A0DFFD100D3AE31 /* images */; };
+		892638BC2A0DFFD100D3AE31 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 892638BB2A0DFFD100D3AE31 /* manifest.json */; };
+		892638BE2A0DFFD100D3AE31 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 892638BD2A0DFFD100D3AE31 /* background.js */; };
+		892638C02A0DFFD100D3AE31 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 892638BF2A0DFFD100D3AE31 /* content.js */; };
+		892638C22A0DFFD100D3AE31 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 892638C12A0DFFD100D3AE31 /* popup.html */; };
+		892638C42A0DFFD100D3AE31 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 892638C32A0DFFD100D3AE31 /* popup.css */; };
+		892638C62A0DFFD100D3AE31 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 892638C52A0DFFD100D3AE31 /* popup.js */; };
+		892638C82A0DFFD100D3AE31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 892638A92A0DFFD100D3AE31 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		892638B12A0DFFD100D3AE31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8926388A2A0DFFD000D3AE31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 892638AE2A0DFFD100D3AE31;
+			remoteInfo = "Barabara Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		892638CE2A0DFFD100D3AE31 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				892638B02A0DFFD100D3AE31 /* Barabara Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		892638922A0DFFD000D3AE31 /* Barabara.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Barabara.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		892638952A0DFFD000D3AE31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		892638992A0DFFD000D3AE31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		8926389B2A0DFFD000D3AE31 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		8926389D2A0DFFD000D3AE31 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		8926389F2A0DFFD000D3AE31 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		892638A12A0DFFD000D3AE31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		892638A42A0DFFD000D3AE31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		892638A72A0DFFD000D3AE31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		892638A92A0DFFD100D3AE31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		892638AA2A0DFFD100D3AE31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		892638AF2A0DFFD100D3AE31 /* Barabara Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Barabara Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		892638B42A0DFFD100D3AE31 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		892638B72A0DFFD100D3AE31 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		892638B92A0DFFD100D3AE31 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		892638BB2A0DFFD100D3AE31 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		892638BD2A0DFFD100D3AE31 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		892638BF2A0DFFD100D3AE31 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		892638C12A0DFFD100D3AE31 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		892638C32A0DFFD100D3AE31 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		892638C52A0DFFD100D3AE31 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		892638C72A0DFFD100D3AE31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8926388F2A0DFFD000D3AE31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		892638AC2A0DFFD100D3AE31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		892638892A0DFFD000D3AE31 = {
+			isa = PBXGroup;
+			children = (
+				892638942A0DFFD000D3AE31 /* Barabara */,
+				892638B32A0DFFD100D3AE31 /* Barabara Extension */,
+				892638932A0DFFD000D3AE31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		892638932A0DFFD000D3AE31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				892638922A0DFFD000D3AE31 /* Barabara.app */,
+				892638AF2A0DFFD100D3AE31 /* Barabara Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		892638942A0DFFD000D3AE31 /* Barabara */ = {
+			isa = PBXGroup;
+			children = (
+				892638952A0DFFD000D3AE31 /* AppDelegate.swift */,
+				8926389F2A0DFFD000D3AE31 /* SceneDelegate.swift */,
+				892638A12A0DFFD000D3AE31 /* ViewController.swift */,
+				892638A32A0DFFD000D3AE31 /* LaunchScreen.storyboard */,
+				892638A62A0DFFD000D3AE31 /* Main.storyboard */,
+				892638A92A0DFFD100D3AE31 /* Assets.xcassets */,
+				892638AA2A0DFFD100D3AE31 /* Info.plist */,
+				892638972A0DFFD000D3AE31 /* Resources */,
+			);
+			path = Barabara;
+			sourceTree = "<group>";
+		};
+		892638972A0DFFD000D3AE31 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				892638982A0DFFD000D3AE31 /* Main.html */,
+				8926389B2A0DFFD000D3AE31 /* Icon.png */,
+				8926389D2A0DFFD000D3AE31 /* Style.css */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		892638B32A0DFFD100D3AE31 /* Barabara Extension */ = {
+			isa = PBXGroup;
+			children = (
+				892638B42A0DFFD100D3AE31 /* SafariWebExtensionHandler.swift */,
+				892638C72A0DFFD100D3AE31 /* Info.plist */,
+				892638B62A0DFFD100D3AE31 /* Resources */,
+			);
+			path = "Barabara Extension";
+			sourceTree = "<group>";
+		};
+		892638B62A0DFFD100D3AE31 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				892638B72A0DFFD100D3AE31 /* _locales */,
+				892638B92A0DFFD100D3AE31 /* images */,
+				892638BB2A0DFFD100D3AE31 /* manifest.json */,
+				892638BD2A0DFFD100D3AE31 /* background.js */,
+				892638BF2A0DFFD100D3AE31 /* content.js */,
+				892638C12A0DFFD100D3AE31 /* popup.html */,
+				892638C32A0DFFD100D3AE31 /* popup.css */,
+				892638C52A0DFFD100D3AE31 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		892638912A0DFFD000D3AE31 /* Barabara */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 892638CF2A0DFFD100D3AE31 /* Build configuration list for PBXNativeTarget "Barabara" */;
+			buildPhases = (
+				8926388E2A0DFFD000D3AE31 /* Sources */,
+				8926388F2A0DFFD000D3AE31 /* Frameworks */,
+				892638902A0DFFD000D3AE31 /* Resources */,
+				892638CE2A0DFFD100D3AE31 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				892638B22A0DFFD100D3AE31 /* PBXTargetDependency */,
+			);
+			name = Barabara;
+			productName = Barabara;
+			productReference = 892638922A0DFFD000D3AE31 /* Barabara.app */;
+			productType = "com.apple.product-type.application";
+		};
+		892638AE2A0DFFD100D3AE31 /* Barabara Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 892638CB2A0DFFD100D3AE31 /* Build configuration list for PBXNativeTarget "Barabara Extension" */;
+			buildPhases = (
+				892638AB2A0DFFD100D3AE31 /* Sources */,
+				892638AC2A0DFFD100D3AE31 /* Frameworks */,
+				892638AD2A0DFFD100D3AE31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Barabara Extension";
+			productName = "Barabara Extension";
+			productReference = 892638AF2A0DFFD100D3AE31 /* Barabara Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8926388A2A0DFFD000D3AE31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					892638912A0DFFD000D3AE31 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					892638AE2A0DFFD100D3AE31 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 8926388D2A0DFFD000D3AE31 /* Build configuration list for PBXProject "Barabara" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 892638892A0DFFD000D3AE31;
+			productRefGroup = 892638932A0DFFD000D3AE31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				892638912A0DFFD000D3AE31 /* Barabara */,
+				892638AE2A0DFFD100D3AE31 /* Barabara Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		892638902A0DFFD000D3AE31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8926389C2A0DFFD000D3AE31 /* Icon.png in Resources */,
+				892638A82A0DFFD000D3AE31 /* Main.storyboard in Resources */,
+				892638A52A0DFFD000D3AE31 /* LaunchScreen.storyboard in Resources */,
+				8926389A2A0DFFD000D3AE31 /* Main.html in Resources */,
+				892638C82A0DFFD100D3AE31 /* Assets.xcassets in Resources */,
+				8926389E2A0DFFD000D3AE31 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		892638AD2A0DFFD100D3AE31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				892638BE2A0DFFD100D3AE31 /* background.js in Resources */,
+				892638C42A0DFFD100D3AE31 /* popup.css in Resources */,
+				892638C22A0DFFD100D3AE31 /* popup.html in Resources */,
+				892638BA2A0DFFD100D3AE31 /* images in Resources */,
+				892638BC2A0DFFD100D3AE31 /* manifest.json in Resources */,
+				892638B82A0DFFD100D3AE31 /* _locales in Resources */,
+				892638C02A0DFFD100D3AE31 /* content.js in Resources */,
+				892638C62A0DFFD100D3AE31 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8926388E2A0DFFD000D3AE31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				892638A22A0DFFD000D3AE31 /* ViewController.swift in Sources */,
+				892638962A0DFFD000D3AE31 /* AppDelegate.swift in Sources */,
+				892638A02A0DFFD000D3AE31 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		892638AB2A0DFFD100D3AE31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				892638B52A0DFFD100D3AE31 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		892638B22A0DFFD100D3AE31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 892638AE2A0DFFD100D3AE31 /* Barabara Extension */;
+			targetProxy = 892638B12A0DFFD100D3AE31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		892638982A0DFFD000D3AE31 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				892638992A0DFFD000D3AE31 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		892638A32A0DFFD000D3AE31 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				892638A42A0DFFD000D3AE31 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		892638A62A0DFFD000D3AE31 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				892638A72A0DFFD000D3AE31 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		892638C92A0DFFD100D3AE31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		892638CA2A0DFFD100D3AE31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		892638CC2A0DFFD100D3AE31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C9D4LD297U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Barabara Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Barabara Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SeiOmori.Barabara.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		892638CD2A0DFFD100D3AE31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C9D4LD297U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Barabara Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Barabara Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SeiOmori.Barabara.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		892638D02A0DFFD100D3AE31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C9D4LD297U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Barabara/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Barabara;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SeiOmori.Barabara;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		892638D12A0DFFD100D3AE31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C9D4LD297U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Barabara/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Barabara;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SeiOmori.Barabara;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8926388D2A0DFFD000D3AE31 /* Build configuration list for PBXProject "Barabara" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				892638C92A0DFFD100D3AE31 /* Debug */,
+				892638CA2A0DFFD100D3AE31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		892638CB2A0DFFD100D3AE31 /* Build configuration list for PBXNativeTarget "Barabara Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				892638CC2A0DFFD100D3AE31 /* Debug */,
+				892638CD2A0DFFD100D3AE31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		892638CF2A0DFFD100D3AE31 /* Build configuration list for PBXNativeTarget "Barabara" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				892638D02A0DFFD100D3AE31 /* Debug */,
+				892638D12A0DFFD100D3AE31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8926388A2A0DFFD000D3AE31 /* Project object */;
+}
