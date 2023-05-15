@@ -26,6 +26,8 @@
 		892638C42A0DFFD100D3AE31 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 892638C32A0DFFD100D3AE31 /* popup.css */; };
 		892638C62A0DFFD100D3AE31 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 892638C52A0DFFD100D3AE31 /* popup.js */; };
 		892638C82A0DFFD100D3AE31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 892638A92A0DFFD100D3AE31 /* Assets.xcassets */; };
+		892638D82A0E120F00D3AE31 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892638D72A0E120F00D3AE31 /* GameViewController.swift */; };
+		892638DA2A0E121F00D3AE31 /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892638D92A0E121F00D3AE31 /* RankingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +77,8 @@
 		892638C32A0DFFD100D3AE31 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
 		892638C52A0DFFD100D3AE31 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
 		892638C72A0DFFD100D3AE31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		892638D72A0E120F00D3AE31 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		892638D92A0E121F00D3AE31 /* RankingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +123,8 @@
 				892638952A0DFFD000D3AE31 /* AppDelegate.swift */,
 				8926389F2A0DFFD000D3AE31 /* SceneDelegate.swift */,
 				892638A12A0DFFD000D3AE31 /* ViewController.swift */,
+				892638D72A0E120F00D3AE31 /* GameViewController.swift */,
+				892638D92A0E121F00D3AE31 /* RankingViewController.swift */,
 				892638A32A0DFFD000D3AE31 /* LaunchScreen.storyboard */,
 				892638A62A0DFFD000D3AE31 /* Main.storyboard */,
 				892638A92A0DFFD100D3AE31 /* Assets.xcassets */,
@@ -275,6 +281,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				892638DA2A0E121F00D3AE31 /* RankingViewController.swift in Sources */,
+				892638D82A0E120F00D3AE31 /* GameViewController.swift in Sources */,
 				892638A22A0DFFD000D3AE31 /* ViewController.swift in Sources */,
 				892638962A0DFFD000D3AE31 /* AppDelegate.swift in Sources */,
 				892638A02A0DFFD000D3AE31 /* SceneDelegate.swift in Sources */,
